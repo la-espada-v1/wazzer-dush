@@ -78,8 +78,3 @@ try:
 
 except KeyboardInterrupt:
     pass
-
-finally:
-    pwmA.stop()
-    pwmB.stop()
-    GPIO.cleanup()
